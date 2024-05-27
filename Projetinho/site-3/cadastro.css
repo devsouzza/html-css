@@ -1,0 +1,51 @@
+body{
+    margin-top: 130px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > section{
+    margin: auto;
+}
+
+section{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.562);
+    width: 350px;
+    padding: 1px 30px 45px 30px;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+input{
+    padding: 5px;
+    width: 340px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 25px 0 0;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.criar:hover{
+    color: rgb(56, 255, 73)
+}

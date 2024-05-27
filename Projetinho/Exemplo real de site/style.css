@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+html, body{
+    min-height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1#principal {
+    background-color: rgb(255, 251, 0);
+    color: black;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    box-shadow: 0 0 0.8px rgba(27, 27, 27, 0.74);
+    text-indent: 10px;
+}
+
+img{
+    width: 50px;
+   padding: 9px;
+   
+}
+
+.direita{
+    background-color: yellow;
+    justify-content: left;
+    color: black;
+    text-align: center;
+}
+
+.esquerda{
+    background-color: yellow;
+    justify-content: right;
+    color: black;
+    text-align: center;
+}
+
+
+.rodapé{
+    position: absolute;
+    bottom: 0;
+    background-color: yellow;
+    color: #FFF;
+    width: 100%;  
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    
+}

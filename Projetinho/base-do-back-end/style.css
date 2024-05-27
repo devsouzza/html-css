@@ -1,0 +1,57 @@
+/*Estilos básicos para a página*/
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to right,#620093, #420892, #020961, #010741, #07031C);
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.562);
+}
+
+h1{
+    font-family: 'Kdam Thmor Pro';
+    font-weight: lighter;
+    font-size: 2.2em;
+    text-shadow: 1.5px 1.5px 2px rgba(49, 49, 49, 0.568);
+}
+
+.conteudo{
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+.node{
+    color: rgb(0, 189, 0);
+    text-shadow: 0.8px 0.8px 0.8px rgba(34, 34, 34, 0.493);
+    font-size: 1.5em;
+}
+
+.python{
+    color: rgb(255, 244, 0);
+    text-shadow: 0.8px 0.8px 2px rgba(48, 48, 48, 0.555);
+    font-size: 1.5em;
+}
+
+.ruby{
+    color: red;
+    text-shadow: 0.8px 0.8px 1px rgba(0, 0, 0, 0.562);
+    font-size: 1.5em;
+}
+
+.java{
+    color: rgb(0, 153, 255);
+    text-shadow: 0.8px 0.8px 1px rgba(53, 53, 53, 0.795);
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 18px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Blog</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="post">
+  <h2>Título do Post</h2>
+  <p>Autor: Autor do Post</p>
+  <p>Data: 01/04/2024</p>
+  <p class="content">Conteúdo resumido do post...</p>
+  <button class="read-more">Leia Mais</button>
+  <form class="comment-form">
+    <input type="text" placeholder="Seu Nome">
+    <textarea placeholder="Seu Comentário"></textarea>
+    <button type="submit">Enviar Comentário</button>
+  </form>
+</div>
+<script>
+
+const readMoreButtons = document.querySelectorAll('.read-more');
+readMoreButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const content = button.previousElementSibling;
+    content.classList.toggle('expanded');
+    button.textContent = content.classList.contains('expanded') ? 'Mostrar Menos' : 'Leia Mais';
+  });
+});
+
+</script>
+</body>
+</html>

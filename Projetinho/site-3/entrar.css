@@ -1,0 +1,52 @@
+body{
+    margin-top: 160px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > section{
+    margin: auto;
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+section{
+    border: none;
+    width: 320px;
+    padding: 1px 30px 45px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.548);
+    background-color: black;
+    color: white;
+}
+
+input{
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px 0 0;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.entrar:hover{
+    color: rgb(56, 255, 73)
+}

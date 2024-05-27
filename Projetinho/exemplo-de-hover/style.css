@@ -1,0 +1,60 @@
+@charset "UTF8";
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    background-color: black;
+    max-height: 100px;
+    border: ;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.conteudo > p{
+    display: none;
+}
+
+.conteudo:hover > p{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+.conteudo2{
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+   
+} 
+
+h2{
+    text-align: center;
+}
+
+.paragrafo2{
+    text-indent: 20px;
+}

@@ -1,0 +1,50 @@
+/*Estilos básicos para a página*/
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+html{
+    text-indent: 20px;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to right, #010D26,#011C40, #034C8C, #0477BF, #0487D9);
+    text-align: center;
+    color: white;
+    text-shadow: 0.9px 0.9px 0.9px rgba(0, 0, 0, 0.767);
+    box-shadow: 0 3px 4px rgba(24, 24, 24, 0.445);
+}
+h1{
+    font-family: 'Kdam Thmor Pro';
+    font-weight: lighter;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+.conteudo{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 8px;
+    font-size: 18px;
+}
+
+.html{
+    color: red;
+    text-shadow: 0.8px 0.8px 0.8px rgba(61, 61, 61, 0.493);
+}
+
+.css{
+    color: rgb(0, 132, 255);
+    text-shadow: 1px 1px 0.8px rgba(61, 61, 61, 0.493);
+}
+
+.javascript{
+    color: rgb(257, 237, 0);
+    text-shadow: 0.8px 0.8px 2px rgba(0, 0, 0, 0.596);
+}

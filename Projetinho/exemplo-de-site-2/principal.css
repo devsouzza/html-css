@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Cormorant&family=Crimson+Pro:wght@200&display=swap');
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    padding: 3px 3px 10px 3px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 2px 2px 5px rgba(31, 31, 31, 0.288);
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+header > h1{
+    text-indent: 20px;
+    font-family: 'Borlow Semi Condensed';
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: end;
+    padding: 0 13px 0 0;
+}
+
+body > h2{
+    margin: 8px;
+}
+
+section{
+    display: flex;
+    margin: 8px;
+}
+
+article{
+    width: 550px;
+    padding: 0 20px 0 0;
+}
+
+nav{
+    text-indent: 10px;
+}
+nav > a{
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav > a:hover{
+    text-decoration: overline;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(22, 22, 22);
+}
+
+footer > ul{
+    display: flex;
+    justify-content: center;
+}
+
+li > a{
+    color: white;
+    text-decoration: none;
+}    
+
+ul > li{
+    list-style: none;
+    margin: 0 10px 0 10px;
+}
+
+img{
+    width: 30px;
+}

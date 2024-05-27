@@ -1,0 +1,64 @@
+/*Estilos básicos para a página*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost&family=Teko&display=swap');
+
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to right, #020873, #020659, #010440,#010326,  #00010D);
+    font-family: 'Teko';
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+header > h1{
+    font-weight: normal;
+}
+
+nav{
+    background-image: linear-gradient(to right,  #020873, #020659, #010440, #010326, #00010D);
+    
+}
+
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+section{
+    margin: 8px;
+    text-align: justify;
+}
+
+section > h2{
+    font-family: 'Jost';
+    font-weight: lighter;
+}
+
+.artigo{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.artigo2{
+    float: right;
+    width: 550px;
+}
+
+footer{
+    margin: 8px;
+    text-align: justify;
+}
